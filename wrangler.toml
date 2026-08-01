@@ -1,0 +1,6 @@
+name = "blog-gateway"
+main = "worker/gateway.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+GITHUB_REPO = "Neo777888/blog"
