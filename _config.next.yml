@@ -1,0 +1,123 @@
+# NexT 主题覆盖配置
+# 文档: https://theme-next.js.org/docs/
+
+# ---------------------------------------------------------------
+# 方案设置
+# ---------------------------------------------------------------
+scheme: Gemini
+darkmode: true
+
+# ---------------------------------------------------------------
+# 菜单设置
+# ---------------------------------------------------------------
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+
+menu_settings:
+  icons: true
+  badges: true
+
+# ---------------------------------------------------------------
+# 侧边栏设置
+# ---------------------------------------------------------------
+sidebar:
+  position: left
+  display: post
+
+# 头像（后续可配置为自己的图片）
+avatar:
+  url:
+  rounded: true
+  rotated: false
+
+# 文章 / 分类 / 标签 统计
+site_state: true
+
+# 目录
+toc:
+  enable: true
+  number: true
+  wrap: true
+  expand_all: false
+  max_depth: 6
+
+# ---------------------------------------------------------------
+# 页脚设置
+# ---------------------------------------------------------------
+footer:
+  since: 2026
+  powered: true
+
+# ---------------------------------------------------------------
+# 文章设置
+# ---------------------------------------------------------------
+excerpt_description: true
+read_more_btn: true
+
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: true
+    another_day: true
+  categories: true
+
+# 标签图标
+tag_icon: true
+
+# ---------------------------------------------------------------
+# 代码块设置
+# ---------------------------------------------------------------
+codeblock:
+  theme:
+    light: default
+    dark: stackoverflow-dark
+  copy_button:
+    enable: true
+    style: flat
+  fold:
+    enable: true
+    height: 500
+  language: true
+
+# ---------------------------------------------------------------
+# 杂项设置
+# ---------------------------------------------------------------
+back2top:
+  enable: true
+  sidebar: true
+  scrollpercent: true
+
+reading_progress:
+  enable: true
+  start_at: left
+  position: top
+  reversed: false
+  color: "#37c6c0"
+  height: 3px
+
+bookmark:
+  enable: true
+  color: "#222"
+  save: auto
+
+# ---------------------------------------------------------------
+# 搜索设置（本地搜索）
+# ---------------------------------------------------------------
+local_search:
+  enable: true
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+
+# ---------------------------------------------------------------
+# 动画设置
+# ---------------------------------------------------------------
+motion:
+  enable: true
+  async: false
+  duration: 200
